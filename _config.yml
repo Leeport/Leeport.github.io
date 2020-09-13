@@ -1,1 +1,26 @@
-theme: jekyll-theme-modernist
+title:               一些碎碎念
+url:                 https://leeport.github.io
+baseurl:             ""
+
+markdown:            kramdown
+highlighter:         rouge
+
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
+
+permalink:           pretty
+paginate:            5
+paginate_path:       /blog/:num
+
+sass:
+  sass_dir:          _sass
+  style:             :compressed
+
+author:
+  name:              Leeport
+  url:               leeport.github.io
+  email:             do not@guess.com
+
+plugins:
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-gist
